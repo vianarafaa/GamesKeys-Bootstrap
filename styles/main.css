@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+header {
+    padding: 20px 10%;
+    background-color: blue;
+    height: 5rem;
+}
+
+.header-logo h1 {
+    font-family: 'Bitcount Grid Double', sans-serif;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.container-carousel {
+    height: 100px;
+}
+
+.carousel-item img {
+    height: 70vh;
+}

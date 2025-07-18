@@ -33,12 +33,16 @@ header {
 }
 
 section {
-    height: 100vh;
+    height: 100%;
 }
 
 h2 {
-    color: #c1e8ff;
     font-weight: bold;
+}
+
+.secao-jogos {
+    background-color: #021024;
+    color: #c1e8ff;
 }
 
 .card {
@@ -71,4 +75,35 @@ h2 {
     text-decoration: line-through;
     margin-right: 10px;
     font-size: 0.875rem;
+}
+
+.secao-sobre {
+    background-color: #c1e8ff;
+    width: 100%;
+    color: #021024;
+}
+
+.secao-sobre img {
+    width: 40vw;
+}
+
+.texto-sobre {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .secao-sobre img {
+        width: 50vw;
+    }
+
+    .texto-sobre {
+        font-size: 1.275rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .secao-sobre img {
+        width: 100%;
+    }
 }

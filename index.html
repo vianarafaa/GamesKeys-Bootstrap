@@ -9,40 +9,116 @@
         <script src="lib/bootstrap.bundle.min.js" defer></script>
     </head>
     <body>
-        <header class="d-flex justify-content-between align-items-center py-2">
-            <div class="header-logo d-flex gap-3 align-items-center">
-                <a href="#" class="navbar-brand"><img src="assets/console-de-jogos.png" class="" alt="Icone de Console" /></a>
-                <a href="#" class="navbar-brand"><h1 class="m-0">GamesKeys</h1></a>
-            </div>
-            <div>
-                <nav class="navbar">
-                    <ul class="menu d-flex gap-3 align-items-center m-0">
-                        <li class="nav-item"><a class="nav-link" href="#jogos">Jogos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-                    </ul>
-                </nav>
+        <header>
+            <div class="navbar navbar-expand-lg">
+                <div class="container justify-content-center">
+                    <div class="header-logo d-flex gap-3 align-items-center">
+                        <a href="#" class="navbar-brand"><img src="assets/console-de-jogos.png" class="" alt="Ícone de Console" /></a>
+                        <a href="#" class="navbar-brand"><h1 class="m-0">GamesKeys</h1></a>
+                    </div>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                        <ul class="menu m-0 nav nav-pills justify-content-center">
+                            <li class="nav-item"><a class="nav-link" href="#jogos">Jogos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
         <main>
-            <div class="">
-                <div class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div data-bs-interval="3000" class="carousel-item active">
-                            <img class="w-100" src="assets/life-is-strange.png" alt="Poster de Life is Strange" />
-                        </div>
-                        <div data-bs-interval="3000" class="carousel-item">
-                            <img class="w-100" src="assets/gta6.png" alt="Poster de GTA 6" />
-                        </div>
-                        <div data-bs-interval="3000" class="carousel-item">
-                            <img class="w-100" src="assets/cyberpunk.png" alt="Poster de Cyberpunk 2077" />
-                        </div>
-                        <div data-bs-interval="3000" class="carousel-item">
-                            <img class="w-100" src="assets/hogwarts-legacy.png" alt="Poster de Hogwarts Legacy" />
-                        </div>
+            <div class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="w-100" src="assets/life-is-strange.png" alt="Poster de Life is Strange" />
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="w-100" src="assets/gta6.png" alt="Poster de GTA 6" />
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="w-100" src="assets/cyberpunk.png" alt="Poster de Cyberpunk 2077" />
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="w-100" src="assets/hogwarts-legacy.png" alt="Poster de Hogwarts Legacy" />
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="w-100" src="assets/the-last-of-us.png" alt="Poster de The Last of Us" />
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="w-100" src="assets/resident-evil-7.png" alt="Poster de Resident Evil 7" />
                     </div>
                 </div>
             </div>
+            <section id="jogos">
+                <div class="container">
+                    <h2 class="text-center my-4">Jogos</h2>
+                    <div class="row">
+                        <div class="col-4 mb-4">
+                            <div class="card">
+                                <img src="assets/life-is-strange.png" alt="Poster de Life is Strange" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Life is Strange - Remastered Collection</h4>
+                                    <h5 class="card-subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit</h5>
+                                    <p class="card-text"><span class="preco-antigo">R$299,90</span><span>R$219,90</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-4">
+                            <div class="card">
+                                <img src="assets/gta6.png" alt="Poster de GTA 6" />
+                                <div class="card-body">
+                                    <h4 class="card-title">GTA 6</h4>
+                                    <h5 class="card-subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit</h5>
+                                    <p class="card-text"><span class="preco-antigo">R$499,90</span><span>R$449,90</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-4">
+                            <div class="card">
+                                <img src="assets/cyberpunk.png" alt="Poster de Cyberpunk 2077" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Cyberpunk 2077</h4>
+                                    <h5 class="card-subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit</h5>
+                                    <p class="card-text"><span class="preco-antigo">R$349,90</span><span>R$279,90</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-4">
+                            <div class="card">
+                                <img src="assets/hogwarts-legacy.png" alt="Poster de Hogwarts Legacy" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Hogwarts Legacy</h4>
+                                    <h5 class="card-subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit</h5>
+                                    <p class="card-text"><span class="preco-antigo">R$499,90</span><span>R$429,90</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-4">
+                            <div class="card">
+                                <img src="assets/the-last-of-us.png" alt="Poster de The Last of Us Parte 2" />
+                                <div class="card-body">
+                                    <h4 class="card-title">The Last of Us - Parte 2</h4>
+                                    <h5 class="card-subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit</h5>
+                                    <p class="card-text"><span class="preco-antigo">R$399,90</span><span>R$349,90</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-4">
+                            <div class="card">
+                                <img src="assets/resident-evil-7.png" alt="Poster de Resident Evil 7" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Resident Evil 7</h4>
+                                    <h5 class="card-subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit</h5>
+                                    <p class="card-text"><span class="preco-antigo">R$479,90</span><span>R$419,90</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </body>
 </html>

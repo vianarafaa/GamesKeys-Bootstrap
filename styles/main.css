@@ -33,7 +33,7 @@ header {
 }
 
 section {
-    height: 100%;
+    width: 100%;
 }
 
 h2 {
@@ -79,7 +79,6 @@ h2 {
 
 .secao-sobre {
     background-color: #c1e8ff;
-    width: 100%;
     color: #021024;
 }
 
@@ -90,6 +89,20 @@ h2 {
 .texto-sobre {
     font-size: 1.5rem;
     margin: 0;
+}
+
+.secao-contato {
+    background-color: #021024;
+    color: #c1e8ff;
+}
+
+footer {
+    background-color: #c1e8ff;
+}
+
+footer h3 {
+    color: #021024;
+    font-size: 1.275rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -105,5 +118,9 @@ h2 {
 @media screen and (max-width: 576px) {
     .secao-sobre img {
         width: 100%;
+    }
+
+    footer h3 {
+        font-size: 1rem;
     }
 }

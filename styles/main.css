@@ -116,6 +116,10 @@ footer h3 {
 }
 
 @media screen and (max-width: 576px) {
+    .carousel-item img {
+        height: 30vh;
+    }
+
     .secao-sobre img {
         width: 100%;
     }
